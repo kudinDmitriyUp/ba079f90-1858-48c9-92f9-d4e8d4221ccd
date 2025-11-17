@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -11,7 +11,7 @@ import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCar
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { Award, Coffee, HandShake, Heart, Mail, MessageCircle, Package, Sparkles, Star, TrendingUp, Users, Zap } from "lucide-react";
+import { Award, Coffee, Handshake, Heart, Mail, MessageCircle, Package, Sparkles, Star, TrendingUp, Users, Zap } from "lucide-react";
 
 export default function Home() {
   return (
@@ -251,7 +251,7 @@ export default function Home() {
           title="Trusted Coffee Partners"
           description="We work with premium coffee suppliers and local businesses"
           tag="Partners"
-          tagIcon={HandShake}
+          tagIcon={Handshake}
           textboxLayout="default"
           logos={["/placeholders/placeholder1.webp", "/placeholders/placeholder1.webp", "/placeholders/placeholder1.webp", "/placeholders/placeholder1.webp", "/placeholders/placeholder1.webp", "/placeholders/placeholder1.webp", "/placeholders/placeholder1.webp"]}
           speed={40}
