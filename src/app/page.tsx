@@ -42,7 +42,7 @@ export default function Home() {
 
       <div id="hero" data-section="hero">
         <HeroBillboard
-          title="Freshly Roasted Coffee"
+          title="Freshly Coffee"
           description="Experience the perfect blend of premium coffee beans, expertly roasted to perfection every morning"
           tag="Premium Quality"
           tagIcon={Coffee}
@@ -50,7 +50,7 @@ export default function Home() {
             { text: "Shop Now", href: "products" },
             { text: "View Menu", href: "products" }
           ]}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1763394159196-v57c434b.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1763394580586-jqvxx6es.jpg"
           imageAlt="Freshly roasted coffee beans"
           frameStyle="card"
         />
